@@ -1,0 +1,128 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: white;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover{
+    color: #000000d0;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000d0;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    align-items: center;
+    
+  }
+
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 50px;
+    background: #b3b1b12b;
+    outline: none;
+    color: white;
+    border: none;
+    padding-right: 20px 20px;
+  }
+
+  form button{
+    border-radius: 20px;
+    background: grey;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+  }
+
+  .puns{
+    padding: 20px;
+    font-weight: 700;
+    color: rgba(209, 202, 202, 0.714);
+  }
+
+  .title-weather-label{
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .weather-label{
+    font-weight: 600;
+  }
+
+  .weather-data {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+/* weather background */
+body.clear {
+    background-image: url('images/summer.jpg');
+  }
+  
+  body.cloudy {
+    background-image: url('images/cloudy.jpg');
+  }
+  
+  body.rainy {
+    background-image: url('images/rainy.jpg');
+  }
+  
+  body.snowy {
+    background-image: url('images/snowy.jpg');
+  }
+
+  body.haze{
+    background-image: url('images/haze.jpg');
+  }
+
+  body.thunderstorm{
+    background-image: url('images/thunderstorm.jpg');
+  }
